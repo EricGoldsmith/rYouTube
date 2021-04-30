@@ -1,0 +1,22 @@
+Package: rYouTube
+Type: Package
+Title: Access YouTube Data and Analytics APIs
+Version: 0.4.0
+Author: Eric Goldsmith
+Maintainer: Eric Goldsmith <eric@ericgoldsmith.com>
+Description: Package to access the YouTube Data and Analytics APIs.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    rlang,
+    utils,
+    magrittr,
+    httr,
+    jsonlite,
+    stringr,
+    dplyr,
+    tibble,
+    lubridate,
+    scales
+RoxygenNote: 7.1.1
